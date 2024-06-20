@@ -1,0 +1,54 @@
+:root {
+/***********************
+  Base Color palette
+***********************/
+  --base-primary-color: #EB763C;
+
+  --base-secondary-color-1: #1AA928;
+  --base-secondary-color-2: #E4FBE7;
+  --base-secondary-color-2: #D6F5E1;
+
+  --base-menu-text-color: #ABB5BA;
+  --base-menu-icon-color: #FFFFFF;
+
+  --base-search-bar-background-color: #ECF0F3;
+  --base-search-bar-text-color: #B2BAC8;
+
+  --base-white-color: #FFFFFF;
+  --base-black-color: #000000;
+
+  --base-page-background-color: #F9F9F9;
+
+
+/***********************
+  Typography
+***********************/
+
+  /** body, paragraph **/
+  --font-body: 14px;
+  /** h1 **/
+  --font-h1-desktop: 30px;
+  /** h2 **/
+  --font-h2-desktop: 24px;
+  /** h3 **/
+  --font-h3-desktop: 22px;
+  --font-h4-desktop: 20px;
+  --font-h5-desktop: 18px;
+  --font-h6-desktop: 16px;
+  /** others **/
+  --font-nav-menu: 14px;
+  --font-button: 14px;
+  --font-profile-desktop: 17px;
+
+
+  /** font family **/
+  --font-family: "Roboto", san-serif;
+
+  /** font weights **/
+  --font-weight-100: 100; /** thin **/
+  --font-weight-300: 300; /** light **/
+  --font-weight-400: 400; /** regular **/
+  --font-weight-500: 500; /** medium **/
+  --font-weight-700: 700; /** bold* */
+  --font-weight-900: 900; /** black **/
+}
