@@ -11,6 +11,12 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: var(--font-h2-mobile);
+  font-weight: var(--font-weight-700);
+  margin: 0;
+}
+
 h6 {
   font-size: var(--font-h6-mobile);
   margin: 0;

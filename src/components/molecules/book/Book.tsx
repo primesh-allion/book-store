@@ -1,8 +1,8 @@
 import React from "react";
 import { StyledBookContainer } from "../../../styles/design-system/molecules/book/BookContainer.styled";
-import { StyledBookDescription } from "../../../styles/design-system/atoms/book/BookDescription";
+import { StyledBookDescription } from "../../../styles/design-system/atoms/book/BookDescription.styled";
 import { StyledBookImg } from "../../../styles/design-system/atoms/book/BookImg.styled";
-import { StyledBookTitle } from "../../../styles/design-system/molecules/book/BookTitle";
+import { StyledBookTitle } from "../../../styles/design-system/molecules/book/BookTitle.styled";
 
 type BookProps = {
   bookImg: string;

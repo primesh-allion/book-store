@@ -1,7 +1,7 @@
 import React from "react";
-import { StyledAuthorContainer } from "../../../styles/design-system/molecules/author/AuthorContainer";
+import { StyledAuthorContainer } from "../../../styles/design-system/molecules/author/AuthorContainer.styled";
 import { StyledAuthorImg } from "../../../styles/design-system/atoms/author/AuthorImg.styled";
-import { StyledAuthorImgContainer } from "../../../styles/design-system/molecules/author/AuthorImgContainer";
+import { StyledAuthorImgContainer } from "../../../styles/design-system/molecules/author/AuthorImgContainer.styled";
 
 type AuthorProps = {
   name: string;
