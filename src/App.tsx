@@ -1,8 +1,17 @@
-import './App.css';
+import AuthorsList from "./components/organisms/authorsList/AuthorsList";
+import BooksList from "./components/organisms/booksList/BooksList";
+import Header from "./components/organisms/header/Header";
+import { StyledContainer } from "./styles/design-system/atoms/container/Container.styled";
 
 function App() {
   return (
-    <div>hello world</div>
+    <>
+      <Header />
+      <StyledContainer>
+        <BooksList />
+        <AuthorsList />
+      </StyledContainer>
+    </>
   );
 }
 

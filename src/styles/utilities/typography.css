@@ -1,0 +1,17 @@
+/** body - root level **/
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-body);
+}
+
+/** h1 **/
+h1 {
+  font-size: var(--font-h1-mobile);
+  font-weight: var(--font-weight-700);
+  margin: 0;
+}
+
+h6 {
+  font-size: var(--font-h6-mobile);
+  margin: 0;
+}

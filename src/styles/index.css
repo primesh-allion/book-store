@@ -1,4 +1,11 @@
-
 /** Token style imports **/
 @import url("./design-system/token/var.css");
 
+/** Utility style imports **/
+@import url("./utilities/global.css");
+@import url("./utilities/normalize.css");
+@import url("./utilities/typography.css");
+
+body {
+  background: var(--base-page-background-color);
+}
