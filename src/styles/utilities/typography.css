@@ -21,3 +21,9 @@ h6 {
   font-size: var(--font-h6-mobile);
   margin: 0;
 }
+
+h4 {
+  font-size: var(--font-h4-mobile);
+  font-weight: var(--font-weight-200);
+  margin: 0;
+}
