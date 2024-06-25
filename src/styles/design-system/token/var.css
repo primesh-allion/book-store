@@ -7,6 +7,7 @@
   --base-secondary-color-1: #1aa928;
   --base-secondary-color-2: #e4fbe7;
   --base-secondary-color-3: #d6f5e1;
+  --base-secondary-color-4: #27a857;
 
   --base-menu-text-color: #abb5ba;
   --base-menu-icon-color: #ffffff;
@@ -23,7 +24,6 @@
   --base-nextBook-text-color: #8a97a4;
   --base-nextBook-time-color: #8998a9;
 
-  --author-border-color: #27a857;
   /***********************
   Typography
 ***********************/
@@ -38,7 +38,10 @@
   --font-h2-mobile: 20px;
   /** h3 **/
   --font-h3-desktop: 22px;
+
   --font-h4-desktop: 20px;
+  --font-h4-mobile: 18px;
+
   --font-h5-desktop: 18px;
 
   /** h6 **/

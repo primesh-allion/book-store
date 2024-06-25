@@ -7,5 +7,5 @@ export const StyledAuthorImgContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--author-border-color);
+  border: 2px solid var(--base-secondary-color-4);
 `;

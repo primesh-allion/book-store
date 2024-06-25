@@ -1,4 +1,4 @@
-import { StyledViewAllButton } from "../../../styles/design-system/atoms/ViewAllButton.styled";
+import { StyledViewAllButton } from "../../../styles/design-system/atoms/buttons/ViewAllButton.styled";
 import { StyledSectionHeader } from "../../../styles/design-system/molecules/sectionHeader/SectionHeader.styled";
 import { StyledListContainer } from "../../../styles/design-system/organisms/listContainer/ListContainer.styled";
 import { BOOK_LIST } from "../../../utilities/book-list";
