@@ -41,7 +41,7 @@ const AudioBookCard = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          top: "178px",
+          top: "15%",
           gap: "10px",
           width: "100%",
         }}
