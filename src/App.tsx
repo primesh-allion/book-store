@@ -1,3 +1,4 @@
+import AudioBookCard from "./components/molecules/audioBook/AudioBookCard";
 import AuthorsList from "./components/organisms/authorsList/AuthorsList";
 import BooksList from "./components/organisms/booksList/BooksList";
 import DailyWork from "./components/organisms/dailyWork/DailyWork";
@@ -16,6 +17,7 @@ function App() {
         <SummeryCardList />
         <NextBooksList />
         <DailyWork />
+        <AudioBookCard />
       </StyledContainer>
     </>
   );
