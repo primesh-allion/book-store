@@ -17,6 +17,11 @@ h2 {
   margin: 0;
 }
 
+h5 {
+  font-size: var(--font-h5-mobile);
+  margin: 0;
+}
+
 h6 {
   font-size: var(--font-h6-mobile);
   margin: 0;
