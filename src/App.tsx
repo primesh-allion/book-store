@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
+import LanguageSelector from "./components/atoms/language/LanguageSelector";
+import Profile from "./components/atoms/profile/Profile";
+import SearchBar from "./components/atoms/searchBar/SearchBar";
 import AudioBookCard from "./components/molecules/audioBook/AudioBookCard";
 import Drawer from "./components/molecules/drawer/Drawer";
 import AuthorsList from "./components/organisms/authorsList/AuthorsList";
-import BooksList from "./components/organisms/booksList/BooksList";
 import DailyWork from "./components/organisms/dailyWork/DailyWork";
 import Header from "./components/organisms/header/Header";
 import NextBooksList from "./components/organisms/nextBooksList/NextBooksList";
 import SummeryCardList from "./components/organisms/summeryCardList/SummeryCardList";
 import { StyledContainer } from "./styles/design-system/atoms/container/Container.styled";
-import SearchBar from "./components/atoms/searchBar/SearchBar";
-import LanguageSelector from "./components/atoms/language/LanguageSelector";
-import Profile from "./components/atoms/profile/Profile";
+import BooksSection from "./components/organisms/booksSection/BooksSection";
 
 function App() {
   function getWindowDimensions() {
@@ -31,10 +31,10 @@ function App() {
     <>
       <Header setOpen={setOpen} open={open} />
       <StyledContainer>
-        <Profile />
-        <SearchBar />
-        <LanguageSelector />
-        <BooksList />
+        {/* <Profile /> */}
+
+        <BooksSection />
+        <hr />
         <AuthorsList />
         <SummeryCardList />
         <NextBooksList />

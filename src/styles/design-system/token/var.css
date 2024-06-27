@@ -23,10 +23,12 @@
   --base-nextBook-text-color: #8a97a4;
   --base-nextBook-time-color: #8998a9;
 
+  --book-card-font-color: #dce0e5;
+
+  --divider-color: #e0e7eb;
   /***********************
   Typography
 ***********************/
-
   /** body, paragraph **/
   --font-body: 14px;
   /** h1 **/

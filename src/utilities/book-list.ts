@@ -31,10 +31,4 @@ export const BOOK_LIST = [
     description: "Yuval Noah Harari",
     image: book5,
   },
-  {
-    id: 6,
-    title: "Never eat alone",
-    description: "Keith Ferrazzi",
-    image: book1,
-  },
 ];

@@ -7,7 +7,6 @@ export const StyledSearchBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
   position: relative;
   background-color: var(--base-search-bar-background-color);
   padding: 5px;

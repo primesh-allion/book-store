@@ -1,10 +1,11 @@
 import React from "react";
 import SummeryCard from "../../molecules/summeryCard/SummeryCard";
 import { SUMMERY } from "../../../utilities/summery";
+import { StyledSummeryCardListContainer } from "../../../styles/design-system/organisms/summeryCards/SummeryCardListContainer.styled";
 
 const SummeryCardList = () => {
   return (
-    <div>
+    <StyledSummeryCardListContainer>
       {SUMMERY.map(({ title, description, id, image }) => (
         <SummeryCard
           id={id}
@@ -13,7 +14,7 @@ const SummeryCardList = () => {
           image={image}
         />
       ))}
-    </div>
+    </StyledSummeryCardListContainer>
   );
 };
 

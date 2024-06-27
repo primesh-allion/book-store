@@ -9,13 +9,13 @@ const ArrowDownIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_501_4298)">
+      <g clipPath="url(#clip0_501_4298)">
         <path
           d="M1 1L7 7L13 1"
           stroke="#27A857"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
