@@ -9,4 +9,5 @@ export const StyledNextBookCard = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 6px;
+  background-color: var(--base-white-color);
 `;

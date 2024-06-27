@@ -9,7 +9,8 @@ export const StyledContainer = styled.div`
   }
 
   @media (min-width: 768px) {
-    margin: 35px auto 0;
+    margin-top: 35px;
+    margin-right: 0;
     width: 850px;
   }
 `;

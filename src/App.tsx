@@ -11,6 +11,7 @@ import NextBooksList from "./components/organisms/nextBooksList/NextBooksList";
 import SummeryCardList from "./components/organisms/summeryCardList/SummeryCardList";
 import { StyledContainer } from "./styles/design-system/atoms/container/Container.styled";
 import BooksSection from "./components/organisms/booksSection/BooksSection";
+import { StyledDetailedContainer } from "./styles/design-system/organisms/detailedSection/DetailedContainer.styled";
 
 function App() {
   function getWindowDimensions() {
@@ -30,18 +31,22 @@ function App() {
   return (
     <>
       <Header setOpen={setOpen} open={open} />
-      <StyledContainer>
-        {/* <Profile /> */}
 
-        <BooksSection />
-        <hr />
-        <AuthorsList />
-        <SummeryCardList />
-        <NextBooksList />
-        <DailyWork />
-        <AudioBookCard />
+      <div style={{ display: "flex", height: "100vh" }}>
+        <StyledContainer>
+          <BooksSection />
+          <hr />
+          <AuthorsList />
+          <SummeryCardList />
+        </StyledContainer>
+        <StyledDetailedContainer>
+          <Profile />
+          <AudioBookCard />
+          <NextBooksList />
+          <DailyWork />
+        </StyledDetailedContainer>
         <Drawer open={open || screenWidth > 768} />
-      </StyledContainer>
+      </div>
     </>
   );
 }

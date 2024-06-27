@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledDrawerContainer = styled.div<{ open: boolean }>`
   position: fixed;
   width: 212px;
-  height: 100vh;
   top: 0;
   left: 0;
   bottom: 0;

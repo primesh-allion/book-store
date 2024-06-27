@@ -31,21 +31,10 @@ const AudioBookCard = () => {
   const images = [book1, book2, book3, book4, book5];
   return (
     <StyledAudioBookCard>
-      <AudioBookMask />
+      {/* <AudioBookMask />
       <AudioBookPulse />
-      <Carousel images={images} />
-      <div
-        style={{
-          position: "relative",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          top: "15%",
-          gap: "10px",
-          width: "100%",
-        }}
-      >
+      <Carousel images={images} /> */}
+      <div>
         <h6>Wonder</h6>
         <p>R.J Palacio</p>
       </div>

@@ -10,6 +10,7 @@ export const StyledDailyWorkCard = styled.div`
   justify-content: space-between;
   padding: 16px 16px 16px 10px;
   gap: 10px;
+  background-color: var(--base-white-color);
 
   h4 {
     color: var(--base-secondary-color-4);
