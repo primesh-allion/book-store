@@ -11,6 +11,7 @@ export const StyledHeader = styled.header`
   justify-content: flex-end;
   align-items: center;
   padding: 0 10px;
+  z-index: 100;
 
   @media (min-width: 768px) {
     display: none;

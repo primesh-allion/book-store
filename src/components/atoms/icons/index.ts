@@ -1,3 +1,4 @@
+import ArrowDownIcon from "./lib/ArrowDownIcon";
 import CategoriesIcon from "./lib/CategoriesIcon";
 import FavoriteIcon from "./lib/FavoriteIcon";
 import HomeIcon from "./lib/HomeIcon";
@@ -12,4 +13,5 @@ export {
   SettingsIcon,
   HomeIcon,
   LogoutIcon,
+  ArrowDownIcon,
 };

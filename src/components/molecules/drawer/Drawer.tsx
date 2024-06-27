@@ -7,6 +7,7 @@ import { StyledDrawerNav } from "../../../styles/design-system/molecules/drawer/
 import { StyledDrawerListContainer } from "../../../styles/design-system/molecules/drawer/DrawerListContainer.styled";
 import drawerImg from "../../../assets/images/drawerImgs/drawerImg.png";
 import { StyledDrawerImg } from "../../../styles/design-system/atoms/drawer/DrawerImg.styled";
+import Profile from "../../atoms/profile/Profile";
 type DrawerProps = {
   open: boolean;
 };

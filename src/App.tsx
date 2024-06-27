@@ -10,6 +10,7 @@ import SummeryCardList from "./components/organisms/summeryCardList/SummeryCardL
 import { StyledContainer } from "./styles/design-system/atoms/container/Container.styled";
 import SearchBar from "./components/atoms/searchBar/SearchBar";
 import LanguageSelector from "./components/atoms/language/LanguageSelector";
+import Profile from "./components/atoms/profile/Profile";
 
 function App() {
   function getWindowDimensions() {
@@ -30,8 +31,9 @@ function App() {
     <>
       <Header setOpen={setOpen} open={open} />
       <StyledContainer>
-        <LanguageSelector />
+        <Profile />
         <SearchBar />
+        <LanguageSelector />
         <BooksList />
         <AuthorsList />
         <SummeryCardList />

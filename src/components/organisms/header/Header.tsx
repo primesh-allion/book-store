@@ -12,7 +12,6 @@ const Header = ({ open, setOpen }: HamburgIconProps) => {
   return (
     <StyledHeader>
       <HamburgIcon onClickHamburgMenuItem={onClickHamburgMenuItem} />
-      {/* <Drawer open={open} /> */}
     </StyledHeader>
   );
 };
