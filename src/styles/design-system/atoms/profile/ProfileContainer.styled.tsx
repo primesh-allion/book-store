@@ -14,5 +14,7 @@ export const StyledProfileContainer = styled.div`
 
   @media (min-width: 768px) {
     width: 243px;
+    margin-top: 35px;
+    margin-bottom: 30px;
   }
 `;

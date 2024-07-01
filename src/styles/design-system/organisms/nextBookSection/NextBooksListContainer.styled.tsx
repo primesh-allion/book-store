@@ -6,7 +6,7 @@ export const StyledNextBooksListContainer = styled.div`
   align-items: center;
   justify-content: center;
   gap: 10px;
-
+  margin-bottom: 33px;
   h2 {
     align-self: flex-start;
   }

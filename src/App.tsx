@@ -12,6 +12,7 @@ import SummeryCardList from "./components/organisms/summeryCardList/SummeryCardL
 import { StyledContainer } from "./styles/design-system/atoms/container/Container.styled";
 import BooksSection from "./components/organisms/booksSection/BooksSection";
 import { StyledDetailedContainer } from "./styles/design-system/organisms/detailedSection/DetailedContainer.styled";
+import { StyledMainContainer } from "./styles/design-system/organisms/mainSection/MainContainer.styled";
 
 function App() {
   function getWindowDimensions() {
@@ -32,7 +33,7 @@ function App() {
     <>
       <Header setOpen={setOpen} open={open} />
 
-      <div style={{ display: "flex", height: "100vh" }}>
+      <StyledMainContainer>
         <StyledContainer>
           <BooksSection />
           <hr />
@@ -46,7 +47,7 @@ function App() {
           <DailyWork />
         </StyledDetailedContainer>
         <Drawer open={open || screenWidth > 768} />
-      </div>
+      </StyledMainContainer>
     </>
   );
 }
